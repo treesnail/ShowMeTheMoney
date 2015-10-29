@@ -21,6 +21,6 @@ def get_one_gp(url_tmp):
     return html_tmp
 
 def analysis_html(html_tmp):
-    soup = BeautifulSoup(html_tmp)
+    soup = BeautifulSoup(html_tmp);
 
 
